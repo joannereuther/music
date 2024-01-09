@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  background: url(images/header_home.jpg);
+  height: 7em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+.bottom {
+  padding: 20px;
+  font-family: 'PT Serif', serif;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(116, 127, 223);
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/header_home.jpg) repeat;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: rgb(116, 127, 223);
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.imageright {
+ float: right;
+}
+
+.imageleft{
+  float: left;
+  padding: 25px;
+}
+
+.column {
+  font-size: large;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+div.content{
+  color:antiquewhite;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1>Music</h1>
+</div>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Taylor.html">Taylor Swift</a>
+  <a href="noahkahan.html">Noah Kahan</a>
+  <a href="zachbryan.html">Zach Bryan</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="imageleft">
+      <img src="images/vinyl.jpg" width="275px">
+    </div>
+    
+    <h2>History of Music</h2>
+
+    <p>Different forms of music has been around for centries. Used in many different ways over time, music has been a resource everyone has used at least once in their life. The Middle Ages had recorded two different types of music, the monophinic and the polphonic. These forms of music were mainly chanting and forms of church music with no intrumental accompaniment. Druing the Renaissance Era, instruments became more popular and people started to sing together in larger groups. During the Classical period music was characterized by simpler melodies and quiter music. It was also at this time where the accessablity of music was increased thus allowing more people to listen and use the resource. The Romantic Music period between 1800 and 1900 music was celebrated and the introduction of wind instruments changed the course of music production. Melodies became fuller and more dramatic through the use of saxophone and the flute. Now in the 20th and 21st Century, music is produced through the use of techknowledgy where the different forms and processes of music is shared.</p> 
+
+    <p>Within this website we will be talking all about my personal favorite artists, Taylor Swift, Noah Kahan, and Zach Bryan.</p>  
+
+   
+
+    <h2>Where to Listen</h2>
+    <p>
+        There are many different streaming services to listen and recive the best experiance when jamming out with your friends in the car, by yourself blasting those sad breakup songs, getting ready to go out with the girls, or cramming in that essay you had a month to write but you are just starting now. No matter where you are streaming, the ablity to listen to music on the go is a privlage everyone should take advantage of.
+    </p>
+
+      <p>
+        <ul class="a">
+          <li>Spotify</li>
+          <li>Pandora</li>
+          <li>Apple Music</li>
+          <li>Amazon Music</li>
+          <li>Sound CLoud</li>
+          <li>YouTube Music</li>
+          <li>The Radio</li>
+          <li>Deezer</li>
+          <li>iHeartRadio</li>
+          <li>Bandcamp</li>
+        </ul>
+      </p> 
+      <div class="imageright">
+        <img src="images/spotifynew.jpg" width="400px">
+      </div>
+      <h2>Most Used Streaming Service</h2>
+         <p>
+            Out if all the different options of where to listen to music, Spotify is the number one choice by far. The app provides many different features such as Spotify Wrapped, premade playlists fit for your muisc taste, the ablity to create a playlist with a friend, daily mixes, behind the lyrics, and more. 
+        </p>
+  </div>
+  
+  
+</div>
+
+<div class="footer">
+    <footer>
+        A. Durso 
+        <br>P5 Web Design 
+        <br>Walpole High School 
+        <br>J. Reuther
+    </footer>
+</div>
+</body>
+</html>
+
+

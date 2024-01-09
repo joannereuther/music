@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  background:  url(images/head_taylor.jpg) ;
+  padding: 20px;
+  text-align: center;
+  height: 7em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #f6a2cfff;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #f6a2cfff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.imageleft {
+  float: left;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.imageright {
+  float: right;
+  margin: 10px;
+}
+.column {
+  font-size: large;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #f6a2cfff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/head_taylor.jpg) repeat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+
+}
+
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+    <h1><a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=9Kc-o5Z5ROeoka8YhwjAvA" target="blank">Taylor Swift</a></h1>
+</div>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+  <a href="Taylor.html">Taylor Swift</a>
+  <a href="noahkahan.html">Noah Kahan</a>
+  <a href="zachbryan.html">Zach Bryan</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Music Type</h2>
+    <div class="imageright">
+      <img src="images/eras.jpg" width="400px">
+    </div>
+    <p>Talyor Swift fits into many different musical catagories such as, country, pop, folk, and in some cases rock. 
+    </p>
+
+    <h2>History of Taylor Swift</h2>
+    <p>
+        At the age of 14 Taylor signed with Big Machine Records, it was here where she realsed many of her beinging albums. Starting with her self titled debute album, Taylor was one of the yougest singer/songrighter's to right number 5 of the US Billboard 200. Her next album was Fearless which she relased at the age of 18, this album got her 3 more Grammy's, her first headlining tour, and more. Following fearless, she released her thrid studio album Speak Now, simillarly to Fearless, this album brought in millions of dollars, a world tour, and many other awards. Red, 1989, Reputation, and Lover followed, each bringing more attention to her and her talent. Although it was in these albums when she shifted from her country style into a more pop genrea. After a small break of her career, Taylor relased Folklore and Evermore, two albums that were a new music genrea for her. After these were relased, Taylor announced her rerecordings of her past albums. Over time all of her older albums will be rerecorded, at the moment Fearless, Red, Speak Now, and 1989 have been released. Her latest album not inculding her rerecordings is Midnights, a mix of different genras. Currently Taylor is on her Era's Tour, not even half way through and it has already made billions.
+    </p>
+    <div class="image">
+      <img src="images/floklore.jpg" width="300px">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RsEZmictANA?si=o8AgovBPEHcjMI2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+    <h2>Why I like Taylor Swift</h2>
+    <p>
+      Taylor Swift tells stories through her muisc, she uses her lyrics to express emotions during highs and lows in her life. These stories create a musical experiance. I love listening Folklore because it has a stonge stroytelling element, making the listening experiance really enjoable.
+    </p>
+
+    <h2>Top Songs</h2>
+    <ol>
+      <li>This Love (Taylor's Version)</li>
+      <li>Dear John (Taylor's Version)</li>
+      <li>The Story Of Us (Taylor's Version)</li>
+      <li>Sweet Nothing</li>
+      <li>All Too Well (Taylor's Version)(10 Minute Version)</li>
+      <li>Tolerate It</li>
+      <li>Cowboy Like Me</li>
+      <li>The 1</li>
+      <li>Mirrorball</li>
+      <li>My Tears Ricochet</li>
+    </ol>
+
+  </div>
+
+</div>
+<div class="footer">
+  <footer>
+      A. Durso 
+      <br>P5 Web Design 
+      <br>Walpole High School 
+      <br>J. Reuther
+  </footer>
+</div>
+</body>
+</html>
+
+

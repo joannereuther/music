@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;  
+  background:  url(images/noah_header.jpg) repeat;
+  height: 7em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ffd966ff;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/noah_header.jpg) repeat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffd966ff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  font-size: large;
+}
+
+.imageleft {
+  float: left;
+}
+
+.imageright {
+  float: right;
+}
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+
+}
+
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+    <h1><a href="https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B?si=dYF9dJfTQ8e1bLtw32TwPA" target="blank">Noah Kahan</a></h1>
+</div>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Taylor.html">Taylor Swift</a>
+    <a href="noahkahan.html">Noah Kahan</a>
+    <a href="zachbryan.html">Zach Bryan</a>
+</div>
+<div class="row">
+    <div class="column">
+      <h2>Music Type</h2>
+      <div class="imageright">
+        <img src="images/noahtour.jpg" width="400px">
+      </div>
+      <p>When catigorizing Noah's music, typically people label it as Folk-Pop or Folk-Country due to it's acousitic Instrumentation, such as guitars or banjos, heartfelt lyrics that connect with listeners, and melodies that invite listeners to sing along.
+      </p>
+  
+      <h2>History of Noah Kahan</h2>
+      <p>
+          Growing up in Vermont and New Hampsire Noah started writing music at the age of 8. Over time he gained exposure and was picked up by Republic Records in 2016. His first single "Young Blood" gained over 9 million streams and helped spread his name and music early on in his career. In 2019, Noah relased his first album, Busyhead; following the simialr timeline his second album, I Was/I Am, relased in 2021 which lead to his first national tour. Even with these sucesses, it was his single Stick Season, relased in 2022, that sky rocketed his career. He then relased the Stick Season album in 2022, the album was a fan favorite and also brought in many new fans to become avid listeners. In June of 2023 Noah relased the deluxe version of Stick Season that included sever new tracks. Currently he is on an international tour titled "Stick Season Tour" and is relasing bits and peices of some unrealsed songs.  
+      </p>
+      <div class="image">
+        <img src="images/ssalbum.jpg" width="300px"> <a href= "https://youtu.be/JKrDdsgXuso?si=QHvAigs_DW9yj03R"><img src="images/noahVideo.png" width="542px"></a>
+      </div>
+      <h2>Why I like Noah Kahan</h2>
+      <p>
+        Noah Kahan creates and sings music that connects with the listeners and produces a sense of understanding between his lyrics and the listeners. His songs can have upbeat tempos with relatable lyrics, or have quiet slower tempos that create a somber mood, either way the lyrics convay emotion and personal experiances many listeners can relate with. 
+      </p>
+  
+      <h2>Top Songs</h2>
+      <ol>
+        <li>Growing Sideways</li>
+        <li>Homesick</li>
+        <li>Mess</li>
+        <li>Your Needs My Needs</li>
+        <li>You're Gonna Go Far</li>
+        <li>Maine</li>
+        <li>False Confidence</li>
+        <li>Sink</li>
+        <li>Dial Drunk (with Post Malone)</li>
+        <li>Norther Attitude (with Hozier)</li>
+      </ol>
+  
+    </div>
+</div>
+<div class="footer">
+  <footer>
+      A. Durso 
+      <br>P5 Web Design 
+      <br>Walpole High School 
+      <br>J. Reuther
+  </footer>
+</div>
+</body>
+</html>
+
+

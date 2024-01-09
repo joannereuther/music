@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;  
+  background:  url(images/zach_header2.jpg) repeat;
+  height: 7em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a:hover {
+  background-color: rgb(218, 47, 47);
+  color: black;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+div.transbox {
+  margin: 30px;
+  background-color: rgb(218, 47, 47);
+  opacity: 0.9;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/zach_header2.jpg) repeat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: rgb(218, 47, 47);
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  font-size: large;
+}
+
+.imageleft {
+  float: left;
+}
+
+.imageright {
+  float: right;
+}
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+
+}
+
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1><a href="https://open.spotify.com/artist/40ZNYROS4zLfyyBSs2PGe2?si=-P_oE9wbQZ2kK3DRhNUgwQ" target="blank">Zach Bryan</a></h1>
+</div>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Taylor.html">Taylor Swift</a>
+    <a href="noahkahan.html">Noah Kahan</a>
+    <a href="zachbryan.html">Zach Bryan</a>
+</div>
+<div class="row">
+    <div class="column">
+      <h2>Music Type</h2>
+      <div class="imageright">
+        <img src="images/zach_tour.jpg" width="400px">
+      </div>
+      <p>Unlike Taylor Swift and Noah Kahan, Zach Bryan's music is easy to discribe, country. His songs fit in to the country music style perfectly, with his simple harmonies, stringed insturments, repeated choruses, and narrative lyrics. 
+      </p>
+  
+      <h2>History of Zach Bryan</h2>
+      <p>
+          Originally from Oklahoma City, Zach Bryan grew up with country music and traditions. Being surrounded with country music, he started to post on social media singing and playing covers and his own songs. After his high school graduation, Zach moved to Nashville to presue his music career. Over the years Zach would post him singing online using his iPhone, this gained him some fans, but it was his single "Heading South" that went viral and gained him a larger following. In 2019, he released his first album, DeAnn, named after his late mother; the album reached double platinum sales levels. Not to long after, he released his second album, "Elisabeth" in 2020. In 2022 he released both Amerian Heartbreak and All My Homies Hate Ticketmaster, which had his live set list from his show at Red Rocks. It was his songs "Something in the orange," "Heading South," and "Dawns" that gained him his major popularity. In 2023 he relased his self titled album, which he is currently touring internationally. 
+      </p>
+      <div class="image">
+        <img src="images/zach_album.jpg" width="300px"> <a href= "https://youtu.be/JKrDdsgXuso?si=QHvAigs_DW9yj03R"><img src="images/noahVideo.png" width="542px"></a>
+      </div>
+      <h2>Why I like Zach Bryan</h2>
+      <p>
+        Before Listening to Zach Bryan's Music, I did not typically listen to country music. It was his music that introduced me to the genrea and made me enjoy listening to country music in general. I also appreciate his lyrics and the meanings behind them because they tell a story about his or people he knows experiances. 
+      </p>
+  
+      <h2>Top Songs</h2>
+      <ol>
+        <li>Hey Driver (feat. The War and Treaty)</li>
+        <li>Tourniquet</li>
+        <li>Sarah's Place (feat. Noah Kahan)</li>
+        <li>Darling</li>
+        <li>Sun to Me</li>
+        <li>Heading South</li>
+        <li>Revival</li>
+        <li>Sweet DeAnn</li>
+        <li>From Austin</li>
+        <li>East Side of Sorrow</li>
+      </ol>
+  
+    </div>
+</div>
+<div class="footer">
+  <footer>
+      A. Durso 
+      <br>P5 Web Design 
+      <br>Walpole High School 
+      <br>J. Reuther
+  </footer>
+</div>
+</body>
+</html>
+
+
